@@ -27,6 +27,9 @@ class _ReleaseNotesAppState extends State<ReleaseNotesApp> {
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light(),
       routerConfig: _router,
+      builder: (BuildContext context, Widget? child) {
+        return MaterialUiCompatibilityBridge(child: child!);
+      },
     );
   }
 }
