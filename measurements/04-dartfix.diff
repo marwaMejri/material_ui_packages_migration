@@ -1,0 +1,73 @@
+﻿diff --git a/lib/app/app.dart b/lib/app/app.dart
+index 39be4b3..52f935c 100644
+--- a/lib/app/app.dart
++++ b/lib/app/app.dart
+@@ -1,4 +1,4 @@
+-import 'package:flutter/material.dart';
++import 'package:material_ui/material_ui.dart';
+ import 'package:go_router/go_router.dart';
+ 
+ import 'package:material_ui_packages_migration/app/router.dart';
+diff --git a/lib/core/theme/app_theme.dart b/lib/core/theme/app_theme.dart
+index 07c20fd..6235a31 100644
+--- a/lib/core/theme/app_theme.dart
++++ b/lib/core/theme/app_theme.dart
+@@ -1,4 +1,4 @@
+-import 'package:flutter/material.dart';
++import 'package:material_ui/material_ui.dart';
+ import 'package:google_fonts/google_fonts.dart';
+ 
+ class AppTheme {
+diff --git a/lib/features/release_detail/release_detail_page.dart b/lib/features/release_detail/release_detail_page.dart
+index 781294c..184ac69 100644
+--- a/lib/features/release_detail/release_detail_page.dart
++++ b/lib/features/release_detail/release_detail_page.dart
+@@ -1,4 +1,4 @@
+-import 'package:flutter/material.dart';
++import 'package:material_ui/material_ui.dart';
+ import 'package:flutter_markdown_plus/flutter_markdown_plus.dart';
+ 
+ import 'package:material_ui_packages_migration/core/data/releases.dart';
+diff --git a/lib/features/releases/releases_page.dart b/lib/features/releases/releases_page.dart
+index 09e4a22..80daaba 100644
+--- a/lib/features/releases/releases_page.dart
++++ b/lib/features/releases/releases_page.dart
+@@ -1,4 +1,4 @@
+-import 'package:flutter/material.dart';
++import 'package:material_ui/material_ui.dart';
+ import 'package:go_router/go_router.dart';
+ 
+ import 'package:material_ui_packages_migration/core/data/releases.dart';
+diff --git a/lib/features/settings/settings_page.dart b/lib/features/settings/settings_page.dart
+index 7742015..0570149 100644
+--- a/lib/features/settings/settings_page.dart
++++ b/lib/features/settings/settings_page.dart
+@@ -1,5 +1,5 @@
+ import 'package:dropdown_button2/dropdown_button2.dart';
+-import 'package:flutter/material.dart';
++import 'package:material_ui/material_ui.dart';
+ 
+ class SettingsPage extends StatefulWidget {
+   const SettingsPage({super.key});
+diff --git a/pubspec.yaml b/pubspec.yaml
+index 42ba160..f07e135 100644
+--- a/pubspec.yaml
++++ b/pubspec.yaml
+@@ -39,6 +39,7 @@ dependencies:
+   dropdown_button2: 3.1.0
+   flutter_markdown_plus: 1.0.12
+ 
++  material_ui: any
+ dev_dependencies:
+   flutter_test:
+     sdk: flutter
+diff --git a/test/markdown_theme_test.dart b/test/markdown_theme_test.dart
+index d4b4e73..2c189a5 100644
+--- a/test/markdown_theme_test.dart
++++ b/test/markdown_theme_test.dart
+@@ -1,4 +1,4 @@
+-import 'package:flutter/material.dart';
++import 'package:material_ui/material_ui.dart';
+ import 'package:flutter_test/flutter_test.dart';
+ 
+ import 'package:material_ui_packages_migration/app/app.dart';

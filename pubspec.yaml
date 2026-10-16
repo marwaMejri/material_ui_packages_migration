@@ -39,6 +39,7 @@ dependencies:
   dropdown_button2: 3.1.0
   flutter_markdown_plus: 1.0.12
 
+  material_ui: any
 dev_dependencies:
   flutter_test:
     sdk: flutter

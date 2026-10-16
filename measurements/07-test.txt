@@ -1,0 +1,119 @@
+﻿00:00 +0: loading C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/fonts_test.dart
+00:00 +0 -1: loading C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/fonts_test.dart [E]
+  Failed to load "C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/fonts_test.dart":
+  Compilation failed for testPath=C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/fonts_test.dart: lib/core/theme/app_theme.dart:14:51: Error: The argument type 'TextTheme/*1*/' can't be assigned to the parameter type 'TextTheme/*2*/?'.
+   - 'TextTheme/*1*/' is from 'package:flutter/src/material/text_theme.dart' ('../../develop/flutter/packages/flutter/lib/src/material/text_theme.dart').
+   - 'TextTheme/*2*/' is from 'package:material_ui/src/text_theme.dart' ('../../AppData/Local/Pub/Cache/hosted/pub.dev/material_ui-1.7.0/lib/src/text_theme.dart').
+        textTheme: GoogleFonts.merriweatherTextTheme(),
+                                                    ^
+  lib/features/settings/settings_page.dart:28:29: Error: The argument type 'InputDecoration/*1*/' can't be assigned to the parameter type 'InputDecoration/*2*/?'.
+   - 'InputDecoration/*1*/' is from 'package:material_ui/src/input_decorator.dart' ('../../AppData/Local/Pub/Cache/hosted/pub.dev/material_ui-1.7.0/lib/src/input_decorator.dart').
+   - 'InputDecoration/*2*/' is from 'package:flutter/src/material/input_decorator.dart' ('../../develop/flutter/packages/flutter/lib/src/material/input_decorator.dart').
+            decoration: const InputDecoration(
+                              ^
+  .
+  Error: The Dart compiler exited unexpectedly.
+  package:flutter_tools/src/base/common.dart 34:3  throwToolExit
+  package:flutter_tools/src/compile.dart 1024:11   DefaultResidentCompiler._compile.<fn>
+  dart:async/zone_root.dart 48:47                  _rootRunUnary
+  dart:async/zone.dart 816:35                      _CustomZone.runUnary
+  dart:async/future_impl.dart 948:45               Future._propagateToListeners.handleValueCallback
+  dart:async/future_impl.dart 977:13               Future._propagateToListeners
+  dart:async/future_impl.dart 862:9                Future._propagateToListeners
+  dart:async/future_impl.dart 720:5                Future._completeWithValue
+  dart:async/future_impl.dart 804:7                Future._asyncCompleteWithValue.<fn>
+  dart:async/zone_root.dart 35:13                  _rootRun
+  dart:async/zone.dart 810:35                      _CustomZone.run
+  dart:async/zone.dart 702:7                       _CustomZone.runGuarded
+  dart:async/zone.dart 743:23                      _CustomZone.bindCallbackGuarded.<fn>
+  dart:async/schedule_microtask.dart 40:35         _microtaskLoop
+  dart:async/schedule_microtask.dart 49:5          _startMicrotaskLoop
+  dart:isolate-patch/isolate_patch.dart 127:13     _runPendingImmediateCallback
+  dart:isolate-patch/isolate_patch.dart 193:5      _RawReceivePort._handleMessage
+  
+00:00 +0 -2: loading C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/markdown_theme_test.dart [E]
+  Failed to load "C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/markdown_theme_test.dart":
+  Compilation failed for testPath=C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/markdown_theme_test.dart: lib/core/theme/app_theme.dart:14:51: Error: The argument type 'TextTheme/*1*/' can't be assigned to the parameter type 'TextTheme/*2*/?'.
+   - 'TextTheme/*1*/' is from 'package:flutter/src/material/text_theme.dart' ('../../develop/flutter/packages/flutter/lib/src/material/text_theme.dart').
+   - 'TextTheme/*2*/' is from 'package:material_ui/src/text_theme.dart' ('../../AppData/Local/Pub/Cache/hosted/pub.dev/material_ui-1.7.0/lib/src/text_theme.dart').
+        textTheme: GoogleFonts.merriweatherTextTheme(),
+                                                    ^
+  lib/features/settings/settings_page.dart:28:29: Error: The argument type 'InputDecoration/*1*/' can't be assigned to the parameter type 'InputDecoration/*2*/?'.
+   - 'InputDecoration/*1*/' is from 'package:material_ui/src/input_decorator.dart' ('../../AppData/Local/Pub/Cache/hosted/pub.dev/material_ui-1.7.0/lib/src/input_decorator.dart').
+   - 'InputDecoration/*2*/' is from 'package:flutter/src/material/input_decorator.dart' ('../../develop/flutter/packages/flutter/lib/src/material/input_decorator.dart').
+            decoration: const InputDecoration(
+                              ^
+  .
+00:00 +0 -2: loading C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/fonts_test.dart [E]
+  Error: The Dart compiler exited unexpectedly.
+  package:flutter_tools/src/base/common.dart 34:3  throwToolExit
+  package:flutter_tools/src/compile.dart 1024:11   DefaultResidentCompiler._compile.<fn>
+  dart:async/zone_root.dart 48:47                  _rootRunUnary
+  dart:async/zone.dart 816:35                      _CustomZone.runUnary
+  dart:async/future_impl.dart 948:45               Future._propagateToListeners.handleValueCallback
+  dart:async/future_impl.dart 977:13               Future._propagateToListeners
+  dart:async/future_impl.dart 862:9                Future._propagateToListeners
+  dart:async/future_impl.dart 720:5                Future._completeWithValue
+  dart:async/future_impl.dart 804:7                Future._asyncCompleteWithValue.<fn>
+  dart:async/zone_root.dart 35:13                  _rootRun
+  dart:async/zone.dart 810:35                      _CustomZone.run
+  dart:async/zone.dart 702:7                       _CustomZone.runGuarded
+  dart:async/zone.dart 743:23                      _CustomZone.bindCallbackGuarded.<fn>
+  dart:async/schedule_microtask.dart 40:35         _microtaskLoop
+  dart:async/schedule_microtask.dart 49:5          _startMicrotaskLoop
+  dart:isolate-patch/isolate_patch.dart 127:13     _runPendingImmediateCallback
+  dart:isolate-patch/isolate_patch.dart 193:5      _RawReceivePort._handleMessage
+  
+00:00 +0 -3: loading C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/navigation_test.dart [E]
+  Failed to load "C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/navigation_test.dart":
+  Compilation failed for testPath=C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/navigation_test.dart: lib/core/theme/app_theme.dart:14:51: Error: The argument type 'TextTheme/*1*/' can't be assigned to the parameter type 'TextTheme/*2*/?'.
+   - 'TextTheme/*1*/' is from 'package:flutter/src/material/text_theme.dart' ('../../develop/flutter/packages/flutter/lib/src/material/text_theme.dart').
+   - 'TextTheme/*2*/' is from 'package:material_ui/src/text_theme.dart' ('../../AppData/Local/Pub/Cache/hosted/pub.dev/material_ui-1.7.0/lib/src/text_theme.dart').
+        textTheme: GoogleFonts.merriweatherTextTheme(),
+                                                    ^
+  lib/features/settings/settings_page.dart:28:29: Error: The argument type 'InputDecoration/*1*/' can't be assigned to the parameter type 'InputDecoration/*2*/?'.
+   - 'InputDecoration/*1*/' is from 'package:material_ui/src/input_decorator.dart' ('../../AppData/Local/Pub/Cache/hosted/pub.dev/material_ui-1.7.0/lib/src/input_decorator.dart').
+   - 'InputDecoration/*2*/' is from 'package:flutter/src/material/input_decorator.dart' ('../../develop/flutter/packages/flutter/lib/src/material/input_decorator.dart').
+            decoration: const InputDecoration(
+                              ^
+  .
+00:00 +0 -3: loading C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/fonts_test.dart [E]
+  Error: The Dart compiler exited unexpectedly.
+  package:flutter_tools/src/base/common.dart 34:3  throwToolExit
+  package:flutter_tools/src/compile.dart 1024:11   DefaultResidentCompiler._compile.<fn>
+  dart:async/zone_root.dart 48:47                  _rootRunUnary
+  dart:async/zone.dart 816:35                      _CustomZone.runUnary
+  dart:async/future_impl.dart 948:45               Future._propagateToListeners.handleValueCallback
+  dart:async/future_impl.dart 977:13               Future._propagateToListeners
+  dart:async/future_impl.dart 862:9                Future._propagateToListeners
+  dart:async/future_impl.dart 720:5                Future._completeWithValue
+  dart:async/future_impl.dart 804:7                Future._asyncCompleteWithValue.<fn>
+  dart:async/zone_root.dart 35:13                  _rootRun
+  dart:async/zone.dart 810:35                      _CustomZone.run
+  dart:async/zone.dart 702:7                       _CustomZone.runGuarded
+  dart:async/zone.dart 743:23                      _CustomZone.bindCallbackGuarded.<fn>
+  dart:async/schedule_microtask.dart 40:35         _microtaskLoop
+  dart:async/schedule_microtask.dart 49:5          _startMicrotaskLoop
+  dart:isolate-patch/isolate_patch.dart 127:13     _runPendingImmediateCallback
+  dart:isolate-patch/isolate_patch.dart 193:5      _RawReceivePort._handleMessage
+  
+00:00 +0 -4: loading C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/settings_test.dart [E]
+  Failed to load "C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/settings_test.dart":
+  Compilation failed for testPath=C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/settings_test.dart: lib/core/theme/app_theme.dart:14:51: Error: The argument type 'TextTheme/*1*/' can't be assigned to the parameter type 'TextTheme/*2*/?'.
+   - 'TextTheme/*1*/' is from 'package:flutter/src/material/text_theme.dart' ('../../develop/flutter/packages/flutter/lib/src/material/text_theme.dart').
+   - 'TextTheme/*2*/' is from 'package:material_ui/src/text_theme.dart' ('../../AppData/Local/Pub/Cache/hosted/pub.dev/material_ui-1.7.0/lib/src/text_theme.dart').
+        textTheme: GoogleFonts.merriweatherTextTheme(),
+                                                    ^
+  lib/features/settings/settings_page.dart:28:29: Error: The argument type 'InputDecoration/*1*/' can't be assigned to the parameter type 'InputDecoration/*2*/?'.
+   - 'InputDecoration/*1*/' is from 'package:material_ui/src/input_decorator.dart' ('../../AppData/Local/Pub/Cache/hosted/pub.dev/material_ui-1.7.0/lib/src/input_decorator.dart').
+   - 'InputDecoration/*2*/' is from 'package:flutter/src/material/input_decorator.dart' ('../../develop/flutter/packages/flutter/lib/src/material/input_decorator.dart').
+            decoration: const InputDecoration(
+                              ^
+  .
+00:00 +0 -4: Some tests failed.
+
+Failing tests:
+  C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/fonts_test.dart: loading C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/fonts_test.dart
+  C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/markdown_theme_test.dart: loading C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/markdown_theme_test.dart
+  C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/navigation_test.dart: loading C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/navigation_test.dart
+  C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/settings_test.dart: loading C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/settings_test.dart
