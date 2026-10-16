@@ -1,0 +1,7 @@
+﻿00:00 +0: loading C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/fonts_test.dart
+00:00 +0: C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/fonts_test.dart: the app title uses the Google font
+00:00 +1: C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/markdown_theme_test.dart: Markdown text uses the app font
+00:01 +2: C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/navigation_test.dart: opening a release plays a page transition
+00:01 +3: C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/settings_test.dart: the channel can be changed to Beta
+00:01 +4: C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/settings_test.dart: the channel can be changed to Beta
+00:01 +5: All tests passed!
