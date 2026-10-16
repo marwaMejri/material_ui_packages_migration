@@ -1,0 +1,4 @@
+﻿Analyzing material_ui_packages_migration...                     
+
+  error - The argument type 'InputDecoration' can't be assigned to the parameter type 'InputDecoration?'.  - lib\features\settings\settings_page.dart:28:23 - argument_type_not_assignable
+
