@@ -1,0 +1,250 @@
+﻿00:00 +0: loading C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/fonts_test.dart
+00:00 +0: C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/fonts_test.dart: the app title uses the Google font
+00:00 +1: C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/markdown_theme_test.dart: Markdown text uses the app font
+00:01 +2: C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/navigation_test.dart: opening a release plays a page transition
+ΓòÉΓòÉΓòí EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK Γò₧ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+The following TestFailure was thrown running a test:
+Expected: exactly one matching candidate
+  Actual: _TypeWidgetFinder:<Found 0 widgets with type "ReleasesPage": []>
+   Which: means none were found but one was expected
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/navigation_test.dart:16:5)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/navigation_test.dart line 16
+The test description was:
+  opening a release plays a page transition
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+00:01 +2 -1: C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/settings_test.dart: the channel can be changed to Beta
+00:01 +2 -1: C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/navigation_test.dart: opening a release plays a page transition [E]
+  Test failed. See exception logs above.
+  The test description was: opening a release plays a page transition
+  
+00:01 +2 -1: C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/markdown_theme_test.dart: Markdown code block uses the app card color
+ΓòÉΓòÉΓòí EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK Γò₧ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+The following TestFailure was thrown running a test:
+Expected: exactly one matching candidate
+  Actual: _WidgetPredicateWidgetFinder:<Found 0 widgets with widget matching predicate: []>
+   Which: means none were found but one was expected
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/markdown_theme_test.dart:46:5)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/markdown_theme_test.dart line 46
+The test description was:
+  Markdown code block uses the app card color
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+00:01 +2 -2: C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/settings_test.dart: the channel can be changed to Beta
+00:01 +2 -2: C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/markdown_theme_test.dart: Markdown code block uses the app card color [E]
+  Test failed. See exception logs above.
+  The test description was: Markdown code block uses the app card color
+  
+00:01 +2 -2: C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/settings_test.dart: the channel can be changed to Beta
+ΓòÉΓòÉΓòí EXCEPTION CAUGHT BY WIDGETS LIBRARY Γò₧ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+The following assertion was thrown building DropdownButton2<String>(dirty, state:
+_DropdownButton2State<String>#1067a):
+No Material widget found.
+DropdownButton2<String> widgets require a Material widget ancestor within the closest
+LookupBoundary.
+In Material Design, most widgets are conceptually "printed" on a sheet of material. In Flutter's
+material library, that material is represented by the Material widget. It is the Material widget
+that renders ink splashes, for instance. Because of this, many material library widgets require that
+there be a Material widget in the tree above them.
+To introduce a Material widget, you can either directly include one, or use a widget that contains
+Material itself, such as a Card, Dialog, Drawer, or Scaffold.
+The specific widget that could not find a Material ancestor was:
+  DropdownButton2<String>
+The ancestors of this widget were:
+  ...
+  DropdownButtonHideUnderline
+  Semantics
+  _FocusInheritedScope
+  Focus
+  Semantics
+  ...
+
+The relevant error-causing widget was:
+  DropdownButton2<String>
+  DropdownButton2:file:///C:/Users/Mriwa/AppData/Local/Pub/Cache/hosted/pub.dev/dropdown_button2-3.1.0/lib/src/dropdown_button2.dart:1217:23
+
+When the exception was thrown, this was the stack:
+#0      debugCheckHasMaterial.<anonymous closure> (package:flutter/src/material/debug.dart:40:7)
+#1      debugCheckHasMaterial (package:flutter/src/material/debug.dart:67:4)
+#2      _DropdownButton2State.build (package:dropdown_button2/src/dropdown_button2.dart:828:12)
+#3      StatefulElement.build (package:flutter/src/widgets/framework.dart:5944:27)
+#4      ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5830:15)
+#5      StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5995:11)
+#6      Element.rebuild (package:flutter/src/widgets/framework.dart:5542:7)
+#7      ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:5812:5)
+#8      StatefulElement._firstBuild (package:flutter/src/widgets/framework.dart:5986:11)
+#9      ComponentElement.mount (package:flutter/src/widgets/framework.dart:5806:5)
+...     Normal element mounting (62 frames)
+#71     Element.inflateWidget (package:flutter/src/widgets/framework.dart:4600:20)
+#72     MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7277:36)
+#73     MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7292:32)
+...     Normal element mounting (276 frames)
+#349    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4600:20)
+#350    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7277:36)
+#351    Element.updateChild (package:flutter/src/widgets/framework.dart:4072:18)
+#352    Element.updateChildren (package:flutter/src/widgets/framework.dart:4268:32)
+#353    MultiChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7308:17)
+#354    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#355    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5854:16)
+#356    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5995:11)
+#357    Element.rebuild (package:flutter/src/widgets/framework.dart:5542:7)
+#358    StatefulElement.update (package:flutter/src/widgets/framework.dart:6020:5)
+#359    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#360    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5854:16)
+#361    Element.rebuild (package:flutter/src/widgets/framework.dart:5542:7)
+#362    ProxyElement.update (package:flutter/src/widgets/framework.dart:6162:5)
+#363    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#364    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5854:16)
+#365    Element.rebuild (package:flutter/src/widgets/framework.dart:5542:7)
+#366    ProxyElement.update (package:flutter/src/widgets/framework.dart:6162:5)
+#367    _InheritedNotifierElement.update (package:flutter/src/widgets/inherited_notifier.dart:108:11)
+#368    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#369    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5854:16)
+#370    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5995:11)
+#371    Element.rebuild (package:flutter/src/widgets/framework.dart:5542:7)
+#372    StatefulElement.update (package:flutter/src/widgets/framework.dart:6020:5)
+#373    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#374    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5854:16)
+#375    Element.rebuild (package:flutter/src/widgets/framework.dart:5542:7)
+#376    ProxyElement.update (package:flutter/src/widgets/framework.dart:6162:5)
+#377    _InheritedNotifierElement.update (package:flutter/src/widgets/inherited_notifier.dart:108:11)
+#378    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#379    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5854:16)
+#380    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5995:11)
+#381    Element.rebuild (package:flutter/src/widgets/framework.dart:5542:7)
+#382    StatefulElement.update (package:flutter/src/widgets/framework.dart:6020:5)
+#383    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#384    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5854:16)
+#385    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5995:11)
+#386    Element.rebuild (package:flutter/src/widgets/framework.dart:5542:7)
+#387    StatefulElement.update (package:flutter/src/widgets/framework.dart:6020:5)
+#388    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#389    SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7135:14)
+#390    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#391    SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7135:14)
+#392    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#393    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5854:16)
+#394    Element.rebuild (package:flutter/src/widgets/framework.dart:5542:7)
+#395    ProxyElement.update (package:flutter/src/widgets/framework.dart:6162:5)
+#396    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#397    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5854:16)
+#398    Element.rebuild (package:flutter/src/widgets/framework.dart:5542:7)
+#399    ProxyElement.update (package:flutter/src/widgets/framework.dart:6162:5)
+#400    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#401    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5854:16)
+#402    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5995:11)
+#403    Element.rebuild (package:flutter/src/widgets/framework.dart:5542:7)
+#404    StatefulElement.update (package:flutter/src/widgets/framework.dart:6020:5)
+#405    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#406    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5854:16)
+#407    Element.rebuild (package:flutter/src/widgets/framework.dart:5542:7)
+#408    ProxyElement.update (package:flutter/src/widgets/framework.dart:6162:5)
+#409    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#410    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5854:16)
+#411    Element.rebuild (package:flutter/src/widgets/framework.dart:5542:7)
+#412    ProxyElement.update (package:flutter/src/widgets/framework.dart:6162:5)
+#413    _InheritedNotifierElement.update (package:flutter/src/widgets/inherited_notifier.dart:108:11)
+#414    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#415    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5854:16)
+#416    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5995:11)
+#417    Element.rebuild (package:flutter/src/widgets/framework.dart:5542:7)
+#418    StatefulElement.update (package:flutter/src/widgets/framework.dart:6020:5)
+#419    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#420    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5854:16)
+#421    Element.rebuild (package:flutter/src/widgets/framework.dart:5542:7)
+#422    ProxyElement.update (package:flutter/src/widgets/framework.dart:6162:5)
+#423    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#424    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5854:16)
+#425    Element.rebuild (package:flutter/src/widgets/framework.dart:5542:7)
+#426    StatelessElement.update (package:flutter/src/widgets/framework.dart:5908:5)
+#427    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#428    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5854:16)
+#429    Element.rebuild (package:flutter/src/widgets/framework.dart:5542:7)
+#430    ProxyElement.update (package:flutter/src/widgets/framework.dart:6162:5)
+#431    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#432    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5854:16)
+#433    Element.rebuild (package:flutter/src/widgets/framework.dart:5542:7)
+#434    ProxyElement.update (package:flutter/src/widgets/framework.dart:6162:5)
+#435    Element.updateChild (package:flutter/src/widgets/framework.dart:4050:15)
+#436    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5854:16)
+#437    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5995:11)
+#438    Element.rebuild (package:flutter/src/widgets/framework.dart:5542:7)
+#439    BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2763:15)
+#440    BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2820:11)
+#441    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3124:18)
+#442    AutomatedTestWidgetsFlutterBinding.drawFrame (package:flutter_test/src/binding.dart:2432:19)
+#443    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:558:5)
+#444    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1430:15)
+#445    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1345:9)
+#446    AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:2261:9)
+#449    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#450    AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:2250:27)
+#451    WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+#454    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#455    WidgetTester.pumpAndSettle (package:flutter_test/src/widget_tester.dart:712:27)
+#456    main.<anonymous closure> (file:///C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/settings_test.dart:11:18)
+<asynchronous suspension>
+#457    testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#458    TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 5 frames from dart:async and package:stack_trace)
+
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòí EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK Γò₧ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+The following TestFailure was thrown running a test:
+Expected: exactly one matching candidate
+  Actual: _TextWidgetFinder:<Found 0 widgets with text "Update channel": []>
+   Which: means none were found but one was expected
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/settings_test.dart:12:5)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/settings_test.dart line 12
+The test description was:
+  the channel can be changed to Beta
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòí EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK Γò₧ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+The following message was thrown:
+Multiple exceptions (2) were detected during the running of the current test, and at least one was
+unexpected.
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+00:01 +2 -3: C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/settings_test.dart: the channel can be changed to Beta [E]
+  Test failed. See exception logs above.
+  The test description was: the channel can be changed to Beta
+  
+00:01 +2 -3: Some tests failed.
+
+Failing tests:
+  C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/markdown_theme_test.dart: Markdown code block uses the app card color
+  C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/navigation_test.dart: opening a release plays a page transition
+  C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/settings_test.dart: the channel can be changed to Beta

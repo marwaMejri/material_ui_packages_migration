@@ -1,0 +1,8 @@
+﻿00:00 +0: loading C:/Users/Mriwa/StudioProjects/material_ui_packages_migration/test/debug_markdown_test.dart
+00:00 +0: print the paragraph spans
+TextSpan font=Merriweather_regular text=""
+  TextSpan font=null text=""
+    TextSpan font=Roboto text="Notely now saves you..."
+    TextSpan font=Roboto text="Save"
+    TextSpan font=Roboto text="."
+00:01 +1: All tests passed!
