@@ -1,0 +1,5 @@
+﻿Analyzing material_ui_packages_migration...                     
+
+   info - 'MaterialUiCompatibilityBridge' is deprecated and shouldn't be used. MaterialUiCompatibilityBridge is a temporary migration utility intended for use only while dependencies are being migrated to package:material_ui. This feature was deprecated to indicate it will be removed in a future release. Try replacing the use of the deprecated member with the replacement - lib\app\app.dart:31:16 - deprecated_member_use
+  error - The argument type 'ThemeData (where ThemeData is defined in C:\Users\Mriwa\AppData\Local\Pub\Cache\hosted\pub.dev\material_ui-1.7.0\lib\src\theme_data.dart)' can't be assigned to the parameter type 'ThemeData (where ThemeData is defined in C:\Users\Mriwa\develop\flutter\packages\flutter\lib\src\material\theme_data.dart)'.  - lib\features\release_detail\release_detail_page.dart:24:56 - argument_type_not_assignable
+

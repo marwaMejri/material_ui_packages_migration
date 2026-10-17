@@ -1,0 +1,4 @@
+﻿Analyzing material_ui_packages_migration...                     
+
+   info - 'MaterialUiCompatibilityBridge' is deprecated and shouldn't be used. MaterialUiCompatibilityBridge is a temporary migration utility intended for use only while dependencies are being migrated to package:material_ui. This feature was deprecated to indicate it will be removed in a future release. Try replacing the use of the deprecated member with the replacement - lib\app\app.dart:31:16 - deprecated_member_use
+

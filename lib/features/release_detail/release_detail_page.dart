@@ -19,7 +19,18 @@ class ReleaseDetailPage extends StatelessWidget {
       ),
       body: release == null
           ? const Center(child: Text('This release does not exist.'))
-          : Markdown(data: release.notes),
+          : Markdown(
+              data: release.notes,
+              styleSheet: MarkdownStyleSheet(
+                code: TextStyle(
+                  backgroundColor: Theme.of(context).cardTheme.color,
+                ),
+                codeblockDecoration: BoxDecoration(
+                  color: Theme.of(context).cardTheme.color,
+                  borderRadius: BorderRadius.circular(2),
+                ),
+              ),
+            ),
     );
   }
 }

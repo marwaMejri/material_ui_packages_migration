@@ -28,6 +28,9 @@ class _ReleaseNotesAppState extends State<ReleaseNotesApp> {
       theme: AppTheme.light(),
       routerConfig: _router,
       builder: (BuildContext context, Widget? child) {
+        // Needed by dropdown_button2 3.1.0, which still uses the SDK Material.
+        // Remove when a migrated version is published.
+        // ignore: deprecated_member_use
         return MaterialUiCompatibilityBridge(child: child!);
       },
     );
