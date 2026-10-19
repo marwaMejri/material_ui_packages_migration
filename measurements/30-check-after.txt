@@ -1,0 +1,7 @@
+﻿Still on the SDK Material (3):
+  dropdown_button2 3.1.0: 2 files import the SDK Material, 8 reads of Theme.of in them
+  flutter_markdown_plus 1.0.12: 5 files import the SDK Material, 7 reads of Theme.of in them
+  leak_tracker_flutter_testing 3.0.10: 1 file imports the SDK Material, 0 reads of Theme.of in them
+Already on material_ui (2):
+  go_router 18.1.0: 2 files use material_ui
+  google_fonts 9.0.0: 29 files use material_ui

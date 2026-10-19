@@ -1,0 +1,4 @@
+﻿Analyzing baseline...                                           
+
+  error - The argument type 'TextTheme' can't be assigned to the parameter type 'TextTheme?'.  - lib\core\theme\app_theme.dart:14:18 - argument_type_not_assignable
+
